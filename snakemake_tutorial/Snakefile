@@ -5,4 +5,4 @@ rule b_map:
     output:
         "mapped_reads/{sample}.bam"
     shell:
-        "bwa mem {input} | samtools view -Sb - > {output}"wa_map:
+        "bwa mem {input} | samtools view -Sb - > {output}"
